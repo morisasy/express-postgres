@@ -10,10 +10,16 @@ INSERT INTO students (name) VALUES ('Matt');
 
 */
 
-module.exports={
+const { Client } = require("pg");
+const connectionString = {
   user: 'postgres',
   host: 'localhost',
   database: 'pglessonone',
   password: 'adile49',
   port: 5432,
 };
+const client = new Client(connectionString);
+
+client.connect();
+
+module.exports = client;
