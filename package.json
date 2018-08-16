@@ -1,0 +1,25 @@
+{
+  "name": "express-postgres",
+  "version": "1.0.0",
+  "description": "A simple express appliction with postgres database:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expreess",
+    "router",
+    "nodejs",
+    "javascript",
+    "Full",
+    "stack",
+    "web",
+    "development",
+    "Post-gres"
+  ],
+  "author": "Medi Risasi",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.4.3"
+  }
+}
